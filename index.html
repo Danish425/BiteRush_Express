@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BiteRush Express</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="script.js">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">BiteRush-Express</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <nav id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="reviews.html">Reviews</a>
+    </nav>
+  </header>
+  
+  
+
+  <section class="hero">
+    <h1>Order Food Anytime, Anywhere</h1>
+    <p>Fresh ingredients. Mouth-watering recipes. Lightning-fast delivery.</p>
+    <button>Explore Menu</button>
+  </section>
+
+  <section class="section" id="about">
+    <h2>Who We Are</h2>
+    <div class="about">
+      <p>We’re passionate about food and delivering joy in every bite. Whether you're craving a burger, pasta, or just a great salad—BiteRush Express is here for you. Our chefs cook fresh every day, and we bring it hot to your door.</p>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Popular Dishes</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="image/Burger.jpg" alt="burger" />
+        <div class="card-body">
+          <h3>Double Cheese Burger</h3>
+          <p>Thick, juicy, and oozing with cheese. A perfect bite every time.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/pasta.jpg" alt="pasta" />
+        <div class="card-body">
+          <h3>Italian Pasta</h3>
+          <p>Made with classic herbs and sauces, our pasta is comfort food done right.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/salad.jpg" alt="salad" />
+        <div class="card-body">
+          <h3>Greek Salad</h3>
+          <p>Fresh veggies, olives, and feta tossed in our special lemon dressing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/Tandoori-Chicken.jpg" alt="Tandoori Chicken" />
+        <div class="card-body">
+          <h3>Tandoori Chicken</h3>
+          <p>Marinated in Indian spices and grilled to smoky perfection.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="image/chocolate-brownie.jpg" alt="Chocolate Dessert" />
+        <div class="card-body">
+          <h3>Molten Chocolate Cake</h3>
+          <p>Rich chocolate cake with a gooey center, served warm with vanilla ice cream.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="image/veg-pizza.jpg" alt="Veggie Pizza" />
+        <div class="card-body">
+          <h3>Garden Fresh Veggie Pizza</h3>
+          <p>Loaded with bell peppers, olives, onions, and our signature cheese blend.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/paneer-tikka.jpg" alt="Paneer Tikka" />
+        <div class="card-body">
+          <h3>Paneer Tikka</h3>
+          <p>Soft cottage cheese cubes marinated in spicy yogurt mix and grilled to perfection.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="image/shahi-paneer.jpg" alt="Shahi Paneer" />
+        <div class="card-body">
+          <h3>Shahi Paneer</h3>
+          <p>Creamy, royal curry made with paneer, rich spices, and a touch of saffron.</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <div class="booking-section">
+    <h2>Book a Table</h2>
+    <form class="booking-form" id="bookingForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="date" id="date" required />
+      <input type="time" id="time" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h3>🎉 Booking Confirmed!</h3>
+      <p>Your table has been successfully booked. We look forward to serving you!</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 BiteRush Express | Designed with ❤️
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
